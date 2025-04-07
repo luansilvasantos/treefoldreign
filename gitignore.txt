@@ -3,6 +3,7 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Plugins/
 .vscode/
 *.suo
 *.user
@@ -51,6 +52,7 @@ Saved/
 .vsconfig
 *.DotSettings.user
 *.ReSharper
+
 
 # === OS specifics ===
 .DS_Store
