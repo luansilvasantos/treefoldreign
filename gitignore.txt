@@ -1,0 +1,60 @@
+# === Unreal Engine ===
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.ipch
+*.db
+*.db-wal
+*.db-shm
+*.pdb
+*.log
+*.tlog
+*.VC.db
+*.VC.VC.opendb
+
+# Precompiled headers
+*.pch
+*.obj
+*.o
+*.so
+*.dll
+*.exe
+
+# Auto-generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.csproj
+*.vcxproj*
+*.sdf
+*.suo
+*.ncb
+
+# Config local
+*.local
+*.launch
+
+# Crash dumps / backup logs
+*.dmp
+*.backup
+
+# === JetBrains Rider ===
+.idea/
+.vs/
+.vsconfig
+*.DotSettings.user
+*.ReSharper
+
+# === OS specifics ===
+.DS_Store
+Thumbs.db
+
+# === Git ===
+*.orig

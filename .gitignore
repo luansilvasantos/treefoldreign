@@ -1,0 +1,9 @@
+.vs/
+Binaries/
+Intermediate/
+Saved/
+*.pdb
+*.ipch
+*.db
+*.obj
+*.pch
