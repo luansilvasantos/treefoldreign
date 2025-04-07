@@ -3,7 +3,6 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
-<<<<<<< HEAD
 	"Modules": [
 		{
 			"Name": "Aura",
@@ -14,8 +13,6 @@
 			]
 		}
 	],
-=======
->>>>>>> cde19203114c09f8386e041d84274cbc546814c8
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
