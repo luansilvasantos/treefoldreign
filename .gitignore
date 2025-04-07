@@ -1,9 +1,96 @@
-.vs/
+# Ignore arquivos de build temporários, intermediários e binários
 Binaries/
+DerivedDataCache/
 Intermediate/
 Saved/
-*.pdb
-*.ipch
-*.db
+Build/
+
+# Configurações locais do projeto
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de backup/sistema
+*.log
+*.tlog
+*.tmp
+*.bak
+*.orig
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de compilação específicos do Visual Studio
+*.VC.db
+*.VC.opendb
+.vs/
+*.sdf
+*.opensdf
+
+# Rider
+.rider/
+*.sln.iml
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos de lock ou instalação
+*.pidb
+*.pid
+*.lock
+
+# Arquivos gerados por Unreal Engine
+*.xcodeproj/
+*.xcworkspace/
+*.xcconfig
+*.launch
+*.xcuserstate
+*.xcuserdata
+*.opensdf
+*.opendb
 *.obj
 *.pch
+*.pdb
+*.idb
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.bak
+*.old
+*.vspscc
+*.vssscc
+*.scc
+*.ncb
+*.aps
+*.ilk
+
+# Ignore arquivos específicos do Unreal que são gigantescos e inúteis no Git
+*.uprojectdirs
+*.sln
+*.suo
+*.sdf
+*.ipch
+*.db
+
+# Plug-ins de IDE que não precisam ser versionados
+Plugins/Developer/RiderLink/
+
+# Optional: Ignore Plugins inteiros (se você não versiona seus plugins locais)
+# Plugins/
+
+# Optional: Ignore arquivos de build de conteúdo
+Content/Collections/
+Content/Developers/
+Content/Developers/*
+
+# Ignore arquivos de configuração locais da engine
+Engine/DerivedDataCache/
+Engine/Saved/
+Engine/Intermediate/
